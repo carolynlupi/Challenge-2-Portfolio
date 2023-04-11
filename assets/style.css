@@ -1,7 +1,11 @@
 * {
     font-family: 'Times New Roman', Times, serif;
+    background-color:darkslategray
 }
 
-h1 {
-    color: darkviolet;
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: seashell;
 }
