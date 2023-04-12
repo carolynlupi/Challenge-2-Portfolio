@@ -49,13 +49,12 @@
     margin: 30px;
     background-color: darkolivegreen;
     line-height:1.5;
-    display: inline-block;
 }
 
 .box1-img {
     object-fit: contain;
     width: 55%;
     height: auto;
-    align: center;
+    box-align: center;
     display: inline-block;
 }
