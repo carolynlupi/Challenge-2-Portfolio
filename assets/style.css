@@ -1,12 +1,13 @@
 * {
     font-family: 'Times New Roman', Times, serif;
-    background-color: darkslategrey;
+    background-color: black;
     box-sizing: border-box;
 }
-  
+
 .header{
     display: flex;
     justify-content: center;
+    position: relative;
     padding: 15px 15px;
     text-align: center;
     color: seashell
@@ -31,9 +32,10 @@
     color: white;
   }
 
-.homebutton {
+.topnav {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
    }
 
 .welcomemessage {
@@ -41,14 +43,18 @@
     color: darkslategray;
 }
 
+.about-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 .box1 {
-    float:left; 
     border-radius: 25px;
     width: 38%;
     padding: 5px;
     padding-left: 30px;
     padding-right: 30px;
-    height: 250px;
     margin: 75px;
     color: seashell;
     background-color: darkolivegreen;
@@ -63,19 +69,17 @@
 }
 
 .box2 {
-    float: left;
+    display: flex;
     border-radius: 25px;
     width: 38%;
     padding: 5px;
     padding-left: 50px;
     padding-right: 50px;
-    height: 250px;
+    height: 250px;  
     margin: 75px;
     line-height:1.5;
     background-color: darkolivegreen;
-    display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .box2-img {
