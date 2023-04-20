@@ -10,13 +10,21 @@
 
 .header {
     display: flex;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
     position: relative;
     padding: 150px 200px;
     text-align: center;
     color: seashell;
     font-size: 65px;
+}
+
+.sparkle-img {
+  display: flex;
+  justify-content:flex-end;
+  align-items: center;
+  height: 85px;
+
 }
 
 .topnav {
@@ -44,9 +52,9 @@
   }
 
 .about-container {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .box1 {
@@ -60,9 +68,10 @@
 }
 
 .box1-aboutme {
-  border-radius: 25px;
-  font: 18px; 
-  align-items: center;
+    border-radius: 25px;
+    font: 18px; 
+    align-items: center;
+
 }
 
 .box2 {
@@ -74,7 +83,6 @@
     padding-left: 50px;
     padding-right: 50px;
     height: 250px;  
-    margin: 75px;
     line-height:1.5;
     }
 
@@ -86,19 +94,69 @@
     vertical-align: middle;
 }
 
+.body-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 2px;
+    margin: 45px;
+}
+
+.contact-section {
+  align-items: center;
+  color: seashell;
+  font: 14px;
+  line-height: 2.0px;
+}
+
+.projects-section {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: seashell;
+  font: 14px;
+  line-height: 2.0px;
+  margin: 75px;
+}
 .body {
   display: flex;
   justify-content: center;
-  background-color: grey;
-  align-items: center;
-  padding-left: 45px;
-  padding-right: 45px;
-  border-radius: 25px;
+  flex-wrap: wrap;
+  padding: 2px;
+  margin: 10px;
   color: seashell;
+  line-height:1.0;
+  border-radius: 25px;
+  width: 38%;
+  height: 50px;  
+  }
+
+.site-footer {
+  background-color:#26272b;
+  padding:35px 0 10px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
 }
 
-.body1{
-    background-color: grey;
-    margin: 0 auto;
-    font-size: 17px;
+.site-footer hr {
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.site-footer hr.small{
+  margin:20px 0
+}
+.site-footer h6 {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.site-footer a {
+  color:#737373;
+}
+.site-footer a:hover {
+  color:#3366cc;
+  text-decoration:none;
 }
