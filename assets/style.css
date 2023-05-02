@@ -10,24 +10,39 @@
 
 .header {
     display: flex;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     justify-content: center;
     position: relative;
-    padding: 150px 200px;
-    margin: 100px;
     text-align: center;
-    color: seashell;
-    font-size: 65px;
-    animation: fadeIn 8s;
+    height: 45px;
+    margin: 100px;
 }
 
-.sparkle-img {
-  display: flex;
-  justify-content:flex-end;
-  align-items: center;
-  height: 85px;
-
+svg {
+  font-family: 'Russo One', sans-serif;
+  position: relative;
+  width: 100%; height: 100%;
 }
+svg text {
+  text-transform: uppercase;
+  animation: stroke 5s infinite alternate;
+  stroke-width: 2;
+  stroke: seashell;
+  font-size: 65px;
+}
+
+@keyframes stroke {
+  0%   {
+    fill: rgba(72,138,20,0); stroke: rgb(244, 246, 248);
+    stroke-dashoffset: 25%; stroke-dasharray: 0 50%; stroke-width: 2;
+  }
+  70%  {fill: rgba(238, 243, 239, 0); stroke: rgb(231, 235, 243); }
+  80%  {fill: rgba(200, 206, 131, 0.66); stroke: rgb(177, 180, 177); stroke-width: 3; }
+  100% {
+    fill: rgb(241, 243, 246); stroke: rgba(196, 194, 199, 0.456); 
+    stroke-dashoffset: -25%; stroke-dasharray: 50% 0; stroke-width: 0;
+  }
+}
+
 
 .topnav {
   display: flex;
@@ -194,7 +209,3 @@
   text-decoration:none;
 }
 
-@keyframes fadeIn {
-  0% { opacity: 0; }
-  100% { opacity: 1; }
-}
