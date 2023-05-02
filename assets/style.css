@@ -14,9 +14,11 @@
     justify-content: center;
     position: relative;
     padding: 150px 200px;
+    margin: 100px;
     text-align: center;
     color: seashell;
     font-size: 65px;
+    animation: fadeIn 8s;
 }
 
 .sparkle-img {
@@ -192,5 +194,7 @@
   text-decoration:none;
 }
 
-
-
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
