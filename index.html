@@ -5,7 +5,8 @@
     <title>Carolyn's Portfolio</title>
     <link rel="stylesheet" href="./assets/style.css"/>
   </head>
-   <body class="default">
+  <!--Navigation Section-->
+  <body class="default">
     <header>
       <div class="topnav">
         <a href="#introduction">
@@ -16,34 +17,62 @@
           <li>Contact</li></a>
       </div>
     </header>
+  <!--Header of Site-->
   <h1 class="header">Hi, I'm Carolyn Lupi
     <img class="sparkle-img" src="./assets/images/sparkle.svg" alt="sparkle" /></img> 
   </h1>
-    <div class="about-container">
-      <div id="introduction" class="box1">
-        <h1 class="box1-aboutme">Introduction</h1>
-          <p class="box1-aboutme">My name is Carolyn Lupi. I am currently studying to be a full stack programmer at the University of Miami. I am excited to start my journey into this career.</p>
-          <p class="box1-aboutme">On my free time, I enjoy painting and going to the beach.</p>
+  <!--Introduction Section-->
+  <div class="about-container">
+    <div id="introduction" class="box1">
+      <h1 class="box1-aboutme">Introduction</h1>
+        <p class="box1-aboutme">My name is Carolyn Lupi. I am currently studying to be a full stack programmer at the University of Miami. I am excited to start my journey into this career.</p>
+        <p class="box1-aboutme">On my free time, I enjoy painting and going to the beach.</p>
+    </div>
+  </div>
+  <!--Contact Section-->
+  <div class="body-container">
+    <div class="box2">
+      <img class="box2-img" src="https://www.zdnet.com/a/img/resize/a0dcec40a8cd8d2e1b3a9e12a05c2819622d20be/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=1200&width=1200"; />
+    </div>  
+    <div class="contact-section"></div>
+      <div id="contact" class="contact">
+          <h2 class="contact-section">Contact:</h2>
+            <p class="contact-section">Email: Karolynlupi@gmail.com</p>
+            <p class="contact-section">Phone: +123-456-7890</p>
+      </div>
+  </div>
+  <!--Projects Section-->
+    <div class="projects-section">  
+        <h2>Projects:</h2>
+    </div>
+    <div class="carousel-item active">
+      <div class="container">
+        <h1>Finished Projects</h1>
+          <p>This is an example paragraph</p>
+      <div id="carousel-item" class="carousel slide">
+         <div class="carousel-inner">
+           <div class="carousel-item active">
+              <img src="assets/images/Password Generator.png" class="d-block w-100" alt="Password Generator">
             </div>
+           <div class="carousel-item">
+              <img src="assets/images/Code Refactor.png" class="d-block w-100" alt="Code Refactor">
             </div>
-            <div class="body-container">
-            <div class="box2">
-                <img class="box2-img" src="https://www.zdnet.com/a/img/resize/a0dcec40a8cd8d2e1b3a9e12a05c2819622d20be/2021/07/19/8a337c80-5ed6-43a1-98fb-b981d420890f/programming-languages-shutterstock-1680857539.jpg?auto=webp&fit=crop&height=1200&width=1200"; />
-            </div>  
-            <div class="contact-section"></div>
-              <div id="contact" class="contact">
-              <h2 class="contact-section">Contact:</h2>
-              <p class="contact-section">Email: Karolynlupi@gmail.com</p>
-              <p class="contact-section">Phone: +123-456-7890</p>
-            </div>
-            </div>
-          </h1>
-        <div class="projects-section"></div>
-          <div id="projects" class="projects">
-            <h2 class="projects-section">Projects:</h2>
-              <p class="projects-section">Created portfolio, learned repositorys, learned HTML & CSS.</p>
+           <div class="carousel-item">
+             <img src="assets/images/Portfolio.png" class="d-block w-100" alt="Carolyn's Portfolio">
+           </div>
           </div>
-        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+       </button>
+      </div>
+      </div>
+    </div>
+<!--Footer Section-->
   <footer class="site-footer">
     <div class="container">
       <div class="row">
