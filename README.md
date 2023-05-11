@@ -1,4 +1,14 @@
 # Challenge-2 Portfolio
-#I have created a portfolio that includes a small bio of myself and also my main email contact.
-#I have made this in two columns with boxes with information.
-#I have then created a few boxes towards the bottom of the page to show the project information and my contact.
+# Description
+Build a React website in 24 hours to showcase the following:
+
+- My technical skill set
+- My web design skill set
+- My projects
+
+## Technologies Used
+HTML5
+CSS3 
+
+### Homepage Visuals
+<img width="1239" alt="Screen Shot 2023-05-02 at 1 58 13 PM" src="https://github.com/carolynlupi/Challenge-2-Portfolio/assets/128636588/7ad5f334-39f2-4a01-9a68-99e49b132730">
