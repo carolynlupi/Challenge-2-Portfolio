@@ -209,3 +209,26 @@ svg text {
   text-decoration:none;
 }
 
+@media screen and (max-width:768px) {
+  .container {
+    max-width: 0px !important;
+  }
+  .carousel-img {
+    width: auto;
+    height: 200px;
+  }
+  .carousel-item {
+    width: 50% !important;
+    margin: 0% !important;
+  }
+  .carousel-control-prev {
+    left: 50% !important;
+}
+  .carousel-control-next {
+    right: -58% !important;
+  }
+  .header {
+    margin: auto !important;
+  }
+}
+
