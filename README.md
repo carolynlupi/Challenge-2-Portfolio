@@ -1,6 +1,6 @@
 # Challenge-2 Portfolio
 # Description
-Build a React website in 24 hours to showcase the following:
+This is my most up-to-date portfolio that shows the following:
 
 - My technical skill set
 - My web design skill set
