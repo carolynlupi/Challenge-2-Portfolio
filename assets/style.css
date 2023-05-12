@@ -215,7 +215,7 @@ svg text {
   }
   .carousel-img {
     width: auto;
-    height: 200px;
+    height: 100px;
   }
   .carousel-item {
     width: 50% !important;
@@ -250,7 +250,7 @@ svg text {
     display: flex;
     justify-content: center;
     border-radius: 25px;
-    width: 38%;
+    width: 100%;
     padding: 3px;
     padding-left: 50px;
     padding-right: 50px;
@@ -258,5 +258,12 @@ svg text {
     line-height:1.5;
     white-space: nowrap;
   }
-}
 
+  .box2-img {
+    width: auto;
+  }
+
+  .box2 {
+    width: auto;
+  }
+}
